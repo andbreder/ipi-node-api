@@ -72,14 +72,21 @@ app.get("/members", (req, res) => {
 
 app.post("/auth", (req, res) => {
   const data = readDB();
+  console.log(req.body)
   res.status(req.body.password === data.auth.password ? 200 : 401).send({});
 });
 
 app.put("/awnser", (req, res) => {
   const data = readDB();
-  data.members[data.members.findIndex((m) => m.name === req.body.name)] = req.body;
-  writeDB(data);
-  res.status(201).json(data.members);
+  let index = data.members.findIndex((m) => m.name === req.body.name);
+  let httpCode = 201;
+  if (index < 0) {
+    httpCode = 400;
+  } else {
+    data.members[index] = req.body;
+    writeDB(data);
+  }
+  res.status(httpCode).json(data.members);
 });
 
 app.delete("/undo/:name", (req, res) => {

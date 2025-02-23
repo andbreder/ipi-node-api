@@ -5,7 +5,143 @@
   "members": [
     {
       "name": "ANDERSON",
-      "awnsers": []
+      "awnsers": [
+        {
+          "filename": "consagracao",
+          "good": [
+            "O Tom",
+            "A Voz"
+          ],
+          "bad": [
+            "Os Instrumentos"
+          ],
+          "neutral": [
+            "O Ritmo",
+            "A Letra"
+          ],
+          "available": []
+        },
+        {
+          "filename": "e-tudo-sobre-voce",
+          "good": [
+            "O Tom",
+            "A Voz"
+          ],
+          "bad": [
+            "Os Instrumentos"
+          ],
+          "neutral": [
+            "O Ritmo",
+            "A Letra"
+          ],
+          "available": []
+        },
+        {
+          "filename": "ele-e-exaltado",
+          "good": [
+            "A Letra"
+          ],
+          "bad": [
+            "O Ritmo",
+            "Os Instrumentos"
+          ],
+          "neutral": [
+            "A Voz",
+            "O Tom"
+          ],
+          "available": []
+        },
+        {
+          "filename": "grande-e-o-senhor",
+          "good": [
+            "O Tom"
+          ],
+          "bad": [
+            "A Letra",
+            "A Voz"
+          ],
+          "neutral": [
+            "Os Instrumentos",
+            "O Ritmo"
+          ],
+          "available": []
+        },
+        {
+          "filename": "lugar-secreto",
+          "good": [
+            "O Tom"
+          ],
+          "bad": [
+            "A Letra",
+            "A Voz"
+          ],
+          "neutral": [
+            "Os Instrumentos",
+            "O Ritmo"
+          ],
+          "available": []
+        },
+        {
+          "filename": "meu-respirar",
+          "good": [
+            "O Tom"
+          ],
+          "bad": [
+            "Os Instrumentos",
+            "A Voz"
+          ],
+          "neutral": [
+            "O Ritmo",
+            "A Letra"
+          ],
+          "available": []
+        },
+        {
+          "filename": "missoes",
+          "good": [
+            "O Tom"
+          ],
+          "bad": [
+            "Os Instrumentos",
+            "A Letra"
+          ],
+          "neutral": [
+            "O Ritmo",
+            "A Voz"
+          ],
+          "available": []
+        },
+        {
+          "filename": "quebrantado",
+          "good": [
+            "O Ritmo"
+          ],
+          "bad": [
+            "Os Instrumentos",
+            "A Letra"
+          ],
+          "neutral": [
+            "A Voz",
+            "O Tom"
+          ],
+          "available": []
+        },
+        {
+          "filename": "toda-sorte-de-bencaos",
+          "good": [
+            "O Tom"
+          ],
+          "bad": [
+            "Os Instrumentos",
+            "A Letra"
+          ],
+          "neutral": [
+            "A Voz",
+            "O Ritmo"
+          ],
+          "available": []
+        }
+      ]
     },
     {
       "name": "ANDRESA",
