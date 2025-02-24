@@ -9,136 +9,126 @@
         {
           "filename": "consagracao",
           "good": [
-            "O Tom",
-            "A Voz"
+            "O Ritmo",
+            "Os Instrumentos",
+            "A Letra",
+            "O Tom"
           ],
           "bad": [
-            "Os Instrumentos"
+            "A Voz"
           ],
-          "neutral": [
-            "O Ritmo",
-            "A Letra"
-          ],
+          "neutral": [],
           "available": []
         },
         {
           "filename": "e-tudo-sobre-voce",
           "good": [
-            "O Tom",
-            "A Voz"
+            "A Letra",
+            "O Tom"
           ],
           "bad": [
+            "A Voz",
+            "O Ritmo",
             "Os Instrumentos"
           ],
-          "neutral": [
-            "O Ritmo",
-            "A Letra"
-          ],
+          "neutral": [],
           "available": []
         },
         {
           "filename": "ele-e-exaltado",
           "good": [
-            "A Letra"
-          ],
-          "bad": [
             "O Ritmo",
+            "A Voz",
+            "A Letra",
+            "O Tom",
             "Os Instrumentos"
           ],
-          "neutral": [
-            "A Voz",
-            "O Tom"
-          ],
+          "bad": [],
+          "neutral": [],
           "available": []
         },
         {
           "filename": "grande-e-o-senhor",
           "good": [
-            "O Tom"
+            "O Ritmo",
+            "A Letra",
+            "O Tom",
+            "Os Instrumentos"
           ],
           "bad": [
-            "A Letra",
             "A Voz"
           ],
-          "neutral": [
-            "Os Instrumentos",
-            "O Ritmo"
-          ],
+          "neutral": [],
           "available": []
         },
         {
           "filename": "lugar-secreto",
           "good": [
-            "O Tom"
+            "A Letra",
+            "O Tom",
+            "Os Instrumentos"
           ],
           "bad": [
-            "A Letra",
-            "A Voz"
-          ],
-          "neutral": [
-            "Os Instrumentos",
+            "A Voz",
             "O Ritmo"
           ],
+          "neutral": [],
           "available": []
         },
         {
           "filename": "meu-respirar",
           "good": [
+            "O Ritmo",
+            "A Voz",
+            "Os Instrumentos",
             "O Tom"
           ],
           "bad": [
-            "Os Instrumentos",
-            "A Voz"
-          ],
-          "neutral": [
-            "O Ritmo",
             "A Letra"
           ],
+          "neutral": [],
           "available": []
         },
         {
           "filename": "missoes",
           "good": [
-            "O Tom"
-          ],
-          "bad": [
             "Os Instrumentos",
             "A Letra"
           ],
-          "neutral": [
-            "O Ritmo",
-            "A Voz"
+          "bad": [
+            "A Voz",
+            "O Tom",
+            "O Ritmo"
           ],
+          "neutral": [],
           "available": []
         },
         {
           "filename": "quebrantado",
           "good": [
-            "O Ritmo"
+            "A Letra"
           ],
           "bad": [
             "Os Instrumentos",
-            "A Letra"
+            "O Tom",
+            "O Ritmo",
+            "A Voz"
           ],
-          "neutral": [
-            "A Voz",
-            "O Tom"
-          ],
+          "neutral": [],
           "available": []
         },
         {
           "filename": "toda-sorte-de-bencaos",
           "good": [
-            "O Tom"
-          ],
-          "bad": [
-            "Os Instrumentos",
             "A Letra"
           ],
-          "neutral": [
-            "A Voz",
-            "O Ritmo"
+          "bad": [
+            "O Ritmo",
+            "Os Instrumentos",
+            "O Tom",
+            "A Voz"
           ],
+          "neutral": [],
           "available": []
         }
       ]
@@ -153,7 +143,136 @@
     },
     {
       "name": "CHARLES",
-      "awnsers": []
+      "awnsers": [
+        {
+          "filename": "consagracao",
+          "good": [
+            "A Letra",
+            "O Ritmo",
+            "O Tom"
+          ],
+          "bad": [
+            "A Voz"
+          ],
+          "neutral": [
+            "Os Instrumentos"
+          ],
+          "available": []
+        },
+        {
+          "filename": "e-tudo-sobre-voce",
+          "good": [
+            "Os Instrumentos",
+            "O Tom",
+            "A Letra"
+          ],
+          "bad": [
+            "O Ritmo",
+            "A Voz"
+          ],
+          "neutral": [],
+          "available": []
+        },
+        {
+          "filename": "ele-e-exaltado",
+          "good": [
+            "O Ritmo",
+            "A Letra",
+            "Os Instrumentos",
+            "O Tom"
+          ],
+          "bad": [],
+          "neutral": [
+            "A Voz"
+          ],
+          "available": []
+        },
+        {
+          "filename": "grande-e-o-senhor",
+          "good": [
+            "Os Instrumentos"
+          ],
+          "bad": [
+            "A Voz",
+            "O Ritmo",
+            "A Letra"
+          ],
+          "neutral": [
+            "O Tom"
+          ],
+          "available": []
+        },
+        {
+          "filename": "lugar-secreto",
+          "good": [
+            "O Ritmo",
+            "A Letra",
+            "Os Instrumentos"
+          ],
+          "bad": [
+            "O Tom",
+            "A Voz"
+          ],
+          "neutral": [],
+          "available": []
+        },
+        {
+          "filename": "meu-respirar",
+          "good": [
+            "A Letra",
+            "Os Instrumentos",
+            "A Voz",
+            "O Tom",
+            "O Ritmo"
+          ],
+          "bad": [],
+          "neutral": [],
+          "available": []
+        },
+        {
+          "filename": "missoes",
+          "good": [
+            "Os Instrumentos",
+            "A Letra"
+          ],
+          "bad": [
+            "O Tom",
+            "A Voz"
+          ],
+          "neutral": [
+            "O Ritmo"
+          ],
+          "available": []
+        },
+        {
+          "filename": "quebrantado",
+          "good": [
+            "A Letra",
+            "O Tom",
+            "Os Instrumentos"
+          ],
+          "bad": [
+            "A Voz"
+          ],
+          "neutral": [
+            "O Ritmo"
+          ],
+          "available": []
+        },
+        {
+          "filename": "toda-sorte-de-bencaos",
+          "good": [
+            "A Letra",
+            "O Ritmo",
+            "Os Instrumentos",
+            "A Voz",
+            "O Tom"
+          ],
+          "bad": [],
+          "neutral": [],
+          "available": []
+        }
+      ]
     },
     {
       "name": "CHRISTOPHER",

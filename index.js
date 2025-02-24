@@ -5,6 +5,7 @@ const path = require("path");
 
 const app = express();
 const PORT = 4222;
+const IP_X = '0.0.0.0';
 const DB_FILE = path.join(__dirname, "db.json");
 
 app.use(cors());
@@ -66,20 +67,34 @@ const writeDB = (data) => {
 /// =====================================================================================
 
 app.get("/members", (req, res) => {
+  // console.log("/members")
+  // console.log(req)
+  // console.log("req.body#########################################################################")
+  // console.log(req.body)
+  
   const data = readDB();
   res.json(data.members);
 });
 
 app.post("/auth", (req, res) => {
+  // console.log("/auth")
+  // console.log(req)
+  // console.log("req.body#########################################################################")
+  // console.log(req.body)
+
   const data = readDB();
-  console.log(req.body)
   res.status(req.body.password === data.auth.password ? 200 : 401).send({});
 });
 
 app.put("/awnser", (req, res) => {
+  // console.log("/awnser")
+  // console.log(req)
+  // console.log("req.body#########################################################################")
+  // console.log(req.body)
+
   const data = readDB();
   let index = data.members.findIndex((m) => m.name === req.body.name);
-  let httpCode = 201;
+  let httpCode = 200;
   if (index < 0) {
     httpCode = 400;
   } else {
@@ -105,6 +120,6 @@ app.delete("/undo/:name", (req, res) => {
 /// stating
 /// =====================================================================================
 
-app.listen(PORT, () => {
-  console.log(`Running ipi-node-api at http://localhost:${PORT}`);
+app.listen(PORT, IP_X, () => {
+  console.log(`Running ipi-node-api at http://${IP_X}:${PORT}`);
 });
